@@ -20,10 +20,10 @@ export const Spotlight = ({
   gradientThird = "radial-gradient(50% 50% at 50% 50%, hsla(210, 100%, 85%, .2) 0, hsla(210, 100%, 45%, .1) 80%, transparent 100%)",
   translateY = -350,
   width = 560,
-  height = 1580,
+  height = 1380,
   smallWidth = 240,
   duration = 6,
-  xOffset = 600,
+  xOffset = 400,
 }: SpotlightProps = {}) => {
   return (
     <motion.div
@@ -31,7 +31,7 @@ export const Spotlight = ({
         opacity: 0,
       }}
       animate={{
-        opacity: 0.8,
+        opacity: 1,
       }}
       transition={{
         duration: 1.5,
